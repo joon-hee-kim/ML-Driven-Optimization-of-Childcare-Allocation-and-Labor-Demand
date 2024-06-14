@@ -1,5 +1,6 @@
 # ML-Driven Optimization of Childcare Allocation and Labor Demand 
 This is the result of a project that utilized and applied public data related to daycare centers and labor (recruitment, job search) to machine learning algorithms.    
+
 This result was also applied to the "2024 National Happiness Service Discovery and Entrepreneurship Contest" hosted by the Korea Social Security Information Service and was selected as the final entry.
 
 [Contest Link](https://www.ssis.or.kr/lay1/bbs/S1T67C95/A/102/view.do?article_seq=125799&cpage=1&rows=10&condition=&keyword=)
@@ -8,10 +9,10 @@ This result was also applied to the "2024 National Happiness Service Discovery a
 In a situation where orphanage leavers and those requiring guardians continue to experience economic difficulties, and in South Korea, where labor shortages are worsening as we enter a super-aging society, the introduction of a job matching system for orphanage leavers is an urgent task.
 
 ## Output
--  1. Data Curation (explained below)</br>
+- 1. Data Curation (explained below)</br>
 - 2. Data Preprocessing (explained below)</br>
 - 3. Modeling </br>
-#1. Perform regional latitude/longitude-based clustering using the KMeans algorithm
+- #1. Perform regional latitude/longitude-based clustering using the KMeans algorithm
 <img width="452" alt="그림1" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/e458c6df-a820-48ad-9f52-195c60e54d0b">
 
 #1. Using KMeans algorithm 
