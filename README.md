@@ -9,30 +9,34 @@ This result was also applied to the "2024 National Happiness Service Discovery a
 In a situation where orphanage leavers and those requiring guardians continue to experience economic difficulties, and in South Korea, where labor shortages are worsening as we enter a super-aging society, the introduction of a job matching system for orphanage leavers is an urgent task.
 
 ## Output
-- Step 1. Data Curation (explained below)</br>
-- Step 2. Data Preprocessing (explained below)</br>
-- Step 3. Modeling </br>
-#1. Perform regional latitude/longitude-based clustering using the KMeans algorithm
-<img width="452" alt="그림1" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/e458c6df-a820-48ad-9f52-195c60e54d0b">
+Step 1. Data Curation (explained below)</br>
+Step 2. Data Preprocessing (explained below)</br>
+Step 3. Modeling </br>
+
+- #1. Perform regional latitude/longitude-based clustering using the KMeans algorithm </br>
+<img width="452" alt="그림1" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/e458c6df-a820-48ad-9f52-195c60e54d0b"> </br>
 
 
-#1. Using KMeans algorithm 
-#2. Perform clustering based on cluster latitude/longitude and labor values
-<img width="452" alt="그림2" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/548f621a-0517-4d71-92f3-43bf14cc9df1">
+- #1. Using KMeans algorithm </br>
+- #2. Perform clustering based on cluster latitude/longitude and labor values </br>
+<img width="452" alt="그림2" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/548f621a-0517-4d71-92f3-43bf14cc9df1"> </br>
 
 
-- Step 4. Analysis and visualization </br>
-By looking at the visualized data, you can see which regions have a low labor demand ratio. Therefore, population should be allocated to these regions first.
-<img width="452" alt="그림3" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/c426552d-7d74-4470-acc6-2920c49f1822">
+Step 4. Analysis and visualization </br>
+
+- By looking at the visualized data, you can see which regions have a low labor demand ratio. </br>
+- Therefore, population should be allocated to these regions first. </br>
+<img width="452" alt="그림3" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/c426552d-7d74-4470-acc6-2920c49f1822"> </br>
 
 
-- Step 5. Childcare facility matching</br>
-Distance calculation
-<img width="452" alt="그림4" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/f06ae4bf-b01b-49f9-9dd0-64695f602ed1">
+Step 5. Childcare facility matching</br>
+
+- Distance calculation </br>
+<img width="452" alt="그림4" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/f06ae4bf-b01b-49f9-9dd0-64695f602ed1"> </br>
 
 
-Ranking calculation
-<img width="114" alt="그림5" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/a1a685b7-2896-48f6-a732-2b242eab4db5">
+- Ranking calculation </br>
+<img width="114" alt="그림5" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/a1a685b7-2896-48f6-a732-2b242eab4db5"> </br>
 
 
 ## Algorithm
@@ -50,9 +54,9 @@ Ranking calculation
 
  
 ## ✔️ Data Source
-Data Name: Status of child welfare facilities in 2022.  (Ministry of Health and Welfare)
-Link:
-Data Name: Labor market status_recruitment_recruitment, job search, placement, employment status (Korea Employment Information Service)
-[Link](https://www.data.go.kr/data/15067938/fileData.do?recommendDataYn=Y)
+Data Name: Status of child welfare facilities in 2022.  (Ministry of Health and Welfare) </br>
+
+Data Name: Labor market status_recruitment_recruitment, job search, placement, employment status (Korea Employment Information Service) </br>
+[Data Link](https://www.data.go.kr/data/15067938/fileData.do?recommendDataYn=Y) </br>
 
 
