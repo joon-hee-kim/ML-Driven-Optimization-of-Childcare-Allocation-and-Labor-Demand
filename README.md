@@ -33,7 +33,7 @@ In a situation where orphanage leavers and those requiring guardians continue to
 202031512 김민재 </br>
 
  
-## Data Source
+## `:bar_chart:` Data Source
 
 
 ## **🖥️ Stack**
@@ -58,18 +58,5 @@ In a situation where orphanage leavers and those requiring guardians continue to
 
 | 타입             | emoji | 코드                      | 설명                                                                      |
 | ---------------- | ----- | ------------------------- | ------------------------------------------------------------------------- |
-| feat             | ✨    | `:sparkles:`              | 새로운 기능 추가                                                          |
-| fix              | 🐛    | `:bug:`                   | 버그 수정                                                                 |
-| design           | 📱    | `:iphone:`                | 사용자 UI 디자인 변경                                                     |
-| style            | 🎨    | `:art:`                   | 코드 포맷 변경, 세미 콜론 누락, 코드 수정 없음                            |
-| comment          | 💡    | `:bulb:`                  | 주석 추가 및 변경                                                         |
-| docs             | ♻️    | `:recycle:`               | 프로덕션 코드 리팩토링                                                    |
-| refactor         | 📝    | `:memo:`                  | 문서 수정                                                                 |
 | test             | ✅    | `:white_check_mark:`      | 테스트 추가 또는 리팩토링                                                 |
-| rename           | 🚚    | `:truck:`                 | 파일이나 폴더명 변경, 이동 작업만                                         |
-| remove           | ➖    | `:heavy_minus_sign:`      | 파일 삭제 작업만                                                          |
-| !BREAKING CHANGE | 👽️   | `:alien:`                 | 커다란 API 변경                                                           |
-| !HOTFIX          | 🔥    | `:fire:`                  | 급하게 치명적인 버그 수정                                                 |
-| chore            | 🏗️    | `:building_construction:` | 빌드 테스트 업데이트, 패키지 매니저를 설정하는 경우(프로덕션 코드 변경 X) |
-
 
