@@ -5,20 +5,13 @@ This result was also applied to the "2024 National Happiness Service Discovery a
 ## Motivation
 In a situation where orphanage leavers and those requiring guardians continue to experience economic difficulties, and in South Korea, where labor shortages are worsening as we enter a super-aging society, the introduction of a job matching system for orphanage leavers is an urgent task.
 
-
-
-![use case diagram1](https://github.com/jj0526/Bus_Arrival_Info/assets/117873805/f52c806f-865f-40a6-90e6-6619bd173077)<br/>  
-
-
 ## Output
 
-- 현재 내 위치 gps로 받아와서 근처 정류장 찾기 </br>
-- 근처 버스 정류장에서 실시간 버스 도착 정보 확인 </br>
-- google map으로 현위치 알기쉽게 확인 </br>
+-  </br>
+- </br>
+-  </br>
 
 ## Algorithm
-![testrun](https://github.com/jj0526/Bus_Arrival_Info/assets/117873805/9cd0fb70-a42c-42e8-9728-5e7b7e00bd6d)
-
 
 
 
@@ -34,10 +27,6 @@ In a situation where orphanage leavers and those requiring guardians continue to
 
  
 ## `:bar_chart:` Data Source
-
-
-## **🖥️ Stack**
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white" height="22">
 
 ## ✔️ Branches
 - main: implementation of the application
