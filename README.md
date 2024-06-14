@@ -2,18 +2,35 @@
 This is the result of a project that utilized and applied public data related to daycare centers and labor (recruitment, job search) to machine learning algorithms.    
 This result was also applied to the "2024 National Happiness Service Discovery and Entrepreneurship Contest" hosted by the Korea Social Security Information Service and was selected as the final entry.
 
+[Contest Link](https://www.ssis.or.kr/lay1/bbs/S1T67C95/A/102/view.do?article_seq=125799&cpage=1&rows=10&condition=&keyword=)
+
 ## Motivation
 In a situation where orphanage leavers and those requiring guardians continue to experience economic difficulties, and in South Korea, where labor shortages are worsening as we enter a super-aging society, the introduction of a job matching system for orphanage leavers is an urgent task.
 
 ## Output
+-  1. Data Curation (explained below)</br>
+- 2. Data Preprocessing (explained below)</br>
+- 3. Modeling </br>
+#1. Perform regional latitude/longitude-based clustering using the KMeans algorithm
+<img width="452" alt="그림1" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/e458c6df-a820-48ad-9f52-195c60e54d0b">
 
--  </br>
-- </br>
--  </br>
+#1. Using KMeans algorithm 
+#2. Perform clustering based on cluster latitude/longitude and labor values
+<img width="452" alt="그림2" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/548f621a-0517-4d71-92f3-43bf14cc9df1">
+
+- 4. Analysis and visualization </br>
+By looking at the visualized data, you can see which regions have a low labor demand ratio. Therefore, population should be allocated to these regions first.
+<img width="452" alt="그림3" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/c426552d-7d74-4470-acc6-2920c49f1822">
+
+- 5. Childcare facility matching</br>
+Distance calculation
+<img width="452" alt="그림4" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/f06ae4bf-b01b-49f9-9dd0-64695f602ed1">
+
+Ranking calculation
+<img width="114" alt="그림5" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/a1a685b7-2896-48f6-a732-2b242eab4db5">
 
 ## Algorithm
-
-
+<img width="352" alt="그림6" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/56aa5a15-3bd2-47c6-b7d2-bf595448166d">
 
 ## 👥 Team Member
 
@@ -26,26 +43,10 @@ In a situation where orphanage leavers and those requiring guardians continue to
 202031512 김민재 </br>
 
  
-## `:bar_chart:` Data Source
+## ✔️ Data Source
+Data Name: Status of child welfare facilities in 2022.  (Ministry of Health and Welfare)
+Link:
+Data Name: Labor market status_recruitment_recruitment, job search, placement, employment status (Korea Employment Information Service)
+[Link](https://www.data.go.kr/data/15067938/fileData.do?recommendDataYn=Y)
 
-## ✔️ Branches
-- main: implementation of the application
-
-- test: testing of the application (JUnit)
-
-## ✔️ Git Commit Message Convention
-
-프로젝트의 커밋 메시지를 일관성 있고 명확하게 작성하기 위해 아래와 같은 구조로 커밋 메시지를 작성합니다. 이 Convention은 각각의 커밋이 어떤 작업을 수행하는지를 명확히 전달하여 협업과 버전 관리를 원활하게 합니다.
-
-### 1. 구조
-
-- `[타입]: 제목 (필수)`
-
-- `[본문]: 변경 내용 (옵션)`
-
-### 2. 타입 및 Emoji
-
-| 타입             | emoji | 코드                      | 설명                                                                      |
-| ---------------- | ----- | ------------------------- | ------------------------------------------------------------------------- |
-| test             | ✅    | `:white_check_mark:`      | 테스트 추가 또는 리팩토링                                                 |
 
