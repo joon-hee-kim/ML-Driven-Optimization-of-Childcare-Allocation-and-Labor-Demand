@@ -15,20 +15,25 @@ In a situation where orphanage leavers and those requiring guardians continue to
 #1. Perform regional latitude/longitude-based clustering using the KMeans algorithm
 <img width="452" alt="그림1" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/e458c6df-a820-48ad-9f52-195c60e54d0b">
 
+
 #1. Using KMeans algorithm 
 #2. Perform clustering based on cluster latitude/longitude and labor values
 <img width="452" alt="그림2" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/548f621a-0517-4d71-92f3-43bf14cc9df1">
+
 
 - Step 4. Analysis and visualization </br>
 By looking at the visualized data, you can see which regions have a low labor demand ratio. Therefore, population should be allocated to these regions first.
 <img width="452" alt="그림3" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/c426552d-7d74-4470-acc6-2920c49f1822">
 
+
 - Step 5. Childcare facility matching</br>
 Distance calculation
 <img width="452" alt="그림4" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/f06ae4bf-b01b-49f9-9dd0-64695f602ed1">
 
+
 Ranking calculation
 <img width="114" alt="그림5" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/a1a685b7-2896-48f6-a732-2b242eab4db5">
+
 
 ## Algorithm
 <img width="352" alt="그림6" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/56aa5a15-3bd2-47c6-b7d2-bf595448166d">
