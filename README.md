@@ -82,7 +82,7 @@ Childcare Facility Data
 * Jeollabuk-do Child Care Facilities (Source: adongbokji): [Data Link](http://www.adongbokji.or.kr/adong/m/html/2_1.asp?page=2&address_1=%C0%FC%BA%CF&gubun2=&keyword1=&PB=%C8%B8%BF%F8%BD%C3%BC%B3%B0%CB%BB%F6#gotop)
 * Number of Children in Need by Gender and Placement (202201~202212) (Source: Bokjiro): [Data Link](https://www.bokjiro.go.kr/ssis-tbu/twatga/sociGuaStat/SociGuaStatDetailIframe.do?datsNo=45&datsClNo=1051&datsClCrit=WS)
 
-Labor-related DataData
+Labor-related Data
 * Labor market status_recruitment_recruitment, job search, placement, employment status (Source: Korea Employment Information Service) [Data Link](https://www.data.go.kr/data/15067938/fileData.do?recommendDataYn=Y) </br>
 
 
