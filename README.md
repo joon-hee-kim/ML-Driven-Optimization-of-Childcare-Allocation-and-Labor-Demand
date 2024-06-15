@@ -1,5 +1,5 @@
 # ML-Driven Optimization of Childcare Allocation and Labor Demand 
-This is the result of a project that utilized and applied public data related to childcare centers and labor (job opening, job search) to machine learning algorithms.    
+This is the result of a project that utilized and applied public data related to childcare centers and labor (job opening, job search) to machine learning algorithms.    
 
 This result was also applied to the "2024 National Happiness Service Discovery and Entrepreneurship Contest" hosted by the Korea Social Security Information Service and was selected as the final entry.
 
@@ -44,8 +44,8 @@ Step 5. Childcare facility matching</br>
 
 In the case of clustering, **K-Means Clustering** was used. For distance calculation, **KNN (K-Nearest Neighbors)** was employed. Data preprocessing was conducted using job opening and job search data from each region.
 
-Labor Demand Ratio: This was calculated by dividing the number of job searches by the number of job openings. A lower value indicates a more severe labor supply shortage.
-Required Workforce: This is an additional column added arbitrarily, representing the number of workers needed by subtracting the number of job searches from the number of job openings.
+- Labor Demand Ratio: This was calculated by dividing the number of job searches by the number of job openings. A lower value indicates a more severe labor supply shortage. <br>
+- Required Workforce: This is an additional column added arbitrarily, representing the number of workers needed by subtracting the number of job searches from the number of job openings.
 
 
 ## 👥 Team Member
