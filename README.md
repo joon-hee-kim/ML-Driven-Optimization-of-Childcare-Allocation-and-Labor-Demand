@@ -42,7 +42,7 @@ Step 5. Childcare facility matching</br>
 
 
 ## Algorithm
-<img width="352" alt="그림6" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/56aa5a15-3bd2-47c6-b7d2-bf595448166d"> </br>
+<img width="795" alt="스크린샷 2024-06-15 오후 4 55 54" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/958aed18-6dd0-4165-a482-7b43f6b9d353"> </br>
 
 In the case of clustering, **K-Means Clustering** was used. For distance calculation, **KNN (K-Nearest Neighbors)** was employed. Data preprocessing was conducted using job opening and job search data from each region.
 
