@@ -17,7 +17,7 @@ Step 3. Modeling </br>
 <img width="452" alt="그림1" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/e458c6df-a820-48ad-9f52-195c60e54d0b"> </br>
 
 
-- #1. Using KMeans algorithm </br>
+- #1. Using K-Means algorithm </br>
 - #2. Perform clustering based on cluster latitude/longitude and labor values </br>
 <img width="452" alt="그림2" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/548f621a-0517-4d71-92f3-43bf14cc9df1"> </br>
 
@@ -35,7 +35,9 @@ Step 5. Childcare facility matching</br>
 <img width="452" alt="그림4" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/f06ae4bf-b01b-49f9-9dd0-64695f602ed1"> </br>
 
 
-- Ranking calculation (Column(From Left): Labor figures_cluster, arrangement) </br>
+- Ranking calculation </br>
+- The value in the "노동수치_군집" column represents a unique identifier for each cluster. For example, it distinguishes Cluster 0, Cluster 1, and so on. </br>
+- The value in the "배치" column indicates the number of data points belonging to that cluster. In other words, it represents the number of regions included in the respective cluster. </br>
 <img width="114" alt="그림5" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/a1a685b7-2896-48f6-a732-2b242eab4db5"> </br>
 
 
