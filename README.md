@@ -36,9 +36,9 @@ Step 5. Childcare facility matching</br>
 
 
 - Ranking calculation </br>
+<img width="114" alt="그림5" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/a1a685b7-2896-48f6-a732-2b242eab4db5"> </br>
 - The value in the "노동수치_군집" column represents a unique identifier for each cluster. For example, it distinguishes Cluster 0, Cluster 1, and so on. </br>
 - The value in the "배치" column indicates the number of data points belonging to that cluster. In other words, it represents the number of regions included in the respective cluster. </br>
-<img width="114" alt="그림5" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/a1a685b7-2896-48f6-a732-2b242eab4db5"> </br>
 
 
 ## Algorithm
