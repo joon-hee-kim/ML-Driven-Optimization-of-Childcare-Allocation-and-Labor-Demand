@@ -62,7 +62,8 @@ In the case of clustering, **K-Means Clustering** was used. For distance calcula
 
  
 ## ✔️ Data Source
-Data Name: Status of child welfare facilities in 2022.  (Ministry of Health and Welfare) </br>
+Childcare Facility Data
+* Status of child welfare facilities in 2022.  (Ministry of Health and Welfare): [Data Link](https://www.mohw.go.kr/board.es?mid=a10412000000&bid=0020&act=view&list_no=377895&tag=&nPage=1) </br>
 * List of Child Welfare Facilities in Seoul (Source: Seoul Open Data Plaza): [Data Link](https://data.seoul.go.kr/dataList/OA-20420/S/1/datasetView.do)
 * Status of Child Care Facilities (Source: Gyeonggi Data Dream): [Data Link](https://data.gg.go.kr/portal/data/service/selectServicePage.do?page=1&rows=10&sortColumn=&sortDirection=&infId=VM9U79G9GCT38059YX9M12361361&infSeq=1&order=&loc=&searchWord=%EC%95%84%EB%8F%99+%EC%96%91%EC%9C%A1%EC%8B%9C%EC%84%A4+%ED%98%84%ED%99%A9)
 * Busan Child Care Facilities (Source: Public Data Portal): [Data Link](https://www.data.go.kr/data/3076473/openapi.do)
@@ -81,6 +82,7 @@ Data Name: Status of child welfare facilities in 2022.  (Ministry of Health and 
 * Jeollabuk-do Child Care Facilities (Source: adongbokji): [Data Link](http://www.adongbokji.or.kr/adong/m/html/2_1.asp?page=2&address_1=%C0%FC%BA%CF&gubun2=&keyword1=&PB=%C8%B8%BF%F8%BD%C3%BC%B3%B0%CB%BB%F6#gotop)
 * Number of Children in Need by Gender and Placement (202201~202212) (Source: Bokjiro): [Data Link](https://www.bokjiro.go.kr/ssis-tbu/twatga/sociGuaStat/SociGuaStatDetailIframe.do?datsNo=45&datsClNo=1051&datsClCrit=WS)
 
-Data Name: Labor market status_recruitment_recruitment, job search, placement, employment status (Source: Korea Employment Information Service) [Data Link](https://www.data.go.kr/data/15067938/fileData.do?recommendDataYn=Y) </br>
+Labor-related DataData
+* Labor market status_recruitment_recruitment, job search, placement, employment status (Source: Korea Employment Information Service) [Data Link](https://www.data.go.kr/data/15067938/fileData.do?recommendDataYn=Y) </br>
 
 
