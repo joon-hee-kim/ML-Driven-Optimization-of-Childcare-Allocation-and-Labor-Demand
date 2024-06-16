@@ -25,7 +25,7 @@ In a situation where orphanage leavers and those requiring guardians continue to
 **Step 4. Analysis and visualization** </br>
 
 - By looking at the visualized data, you can see which regions have a low labor demand ratio (Red and green areas represent high and low labor demand, respectively). </br>
-Therefore, population should be allocated to these regions first. </br>
+- Therefore, population should be allocated to these regions first. </br>
 <img width="452" alt="그림3" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/c426552d-7d74-4470-acc6-2920c49f1822"> </br>
 
 
