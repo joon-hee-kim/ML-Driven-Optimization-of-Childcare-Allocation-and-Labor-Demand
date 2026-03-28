@@ -51,7 +51,7 @@ In a situation where orphanage leavers and those requiring guardians continue to
 ## Algorithm
 <img width="795" alt="스크린샷 2024-06-15 오후 4 55 54" src="https://github.com/joon-hee-kim/ML-Driven-Optimization-of-Childcare-Allocation-and-Labor-Demand/assets/121689436/958aed18-6dd0-4165-a482-7b43f6b9d353"> </br>
 
-In the case of clustering, **K-Means Clustering** was used. For distance calculation, **KNN (K-Nearest Neighbors)** was employed. Data preprocessing was conducted using job opening and job search data from each region.
+**K-Means clustering** was used for regional grouping. For region–childcare matching, geographic distance was calculated to identify the nearest childcare facilities. Data preprocessing was conducted using regional job opening and job search data.
 
 - Labor Demand Ratio: This was calculated by dividing the number of job searches by the number of job openings. A lower value indicates a more severe labor supply shortage. <br>
 - Required Workforce: This is an additional column added arbitrarily, representing the number of workers needed by subtracting the number of job searches from the number of job openings.
